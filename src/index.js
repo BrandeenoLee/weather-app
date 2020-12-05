@@ -22,7 +22,7 @@ function init(resultFromServer) {
     console.log(resultFromServer);
     switch(resultFromServer.weather[0].main) {
         case 'Clear':
-            document.body.style.backgroundImage = "url('./assets/clear.jpg')";
+            document.body.style.backgroundImage = "url('./public/assets/clear.jpg')";
             break;
 
         case 'Clouds':
